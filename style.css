@@ -26,7 +26,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 body {
@@ -872,12 +872,6 @@ a {
    SCROLL ANIMATIONS
    ================================== */
 .fade-in-up {
-    opacity: 0;
-    transform: translateY(40px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-}
-
-.fade-in-up.visible {
     opacity: 1;
     transform: translateY(0);
 }
