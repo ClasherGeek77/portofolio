@@ -1,86 +1,46 @@
-# 🧪 Teddy Lioner | I Build Testers
+# portofolio
 
-**QA Automation Engineer • Mentor • Educator**  
-📍 Indonesia  
-📧 lionertdy@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/teddy-lioner/) | [IEEE](https://ieeexplore.ieee.org/author/37089631442) 
+The source of my portfolio site: https://clashergeek77.github.io/portofolio/
 
----
+Ted, QA lead and automation engineer. I turn software developers into product engineers who test their own work. Open to work from 8 December 2026.
 
-## 👨‍💻 About Me
+- Email: lionertdy@gmail.com
+- LinkedIn: https://www.linkedin.com/in/ted-qa/
+- GitHub: https://github.com/ClasherGeek77
+- IEEE: https://ieeexplore.ieee.org/author/37089631442
 
-Hey! I'm Teddy, a test engineer by profession, mentor by passion.  
-With deep roots in QA automation and education, I’ve built testing pipelines, mentored dozens into automation roles, and led initiatives at Tokopedia, JULO, and Stickearn. I just finished my M.CompSci while experimenting with forecasting, DevOps, and open-source automation tooling.
+## what is in this repo
 
----
+A static page: `index.html`, `style.css` and four small images. No JavaScript, no animation, no web fonts, no build step. The grey theme and the system font stack keep it light, so it loads fast and stays smooth on a slow phone.
 
-## 🔧 Test Automation Projects
+## run it locally
 
-Katalon, Appium, Selenium, everything I teach, I practice.
+```bash
+python3 -m http.server 8000
+```
 
-| Project | Description |
-|--------|-------------|
-| [Github-CI-Automation-Katalon](https://github.com/ClasherGeek77/Github-CI-Automation-Katalon) | Katalon CI/CD using GitHub Actions |
-| [Web-Katalon-Example](https://github.com/ClasherGeek77/Web-Katalon-Example) | Web UI automation using Katalon |
-| [Mobile-Katalon-Example-Project](https://github.com/ClasherGeek77/Mobile-Katalon-Example-Project) | Android automation via Katalon |
-| [Restful-API-Katalon-Example](https://github.com/ClasherGeek77/Restful-API-Katalon-Example) | API automation testing with Katalon |
-| [QA_API](https://github.com/ClasherGeek77/QA_API_BATCH2) | Training material for API testing in DOKU |
-| [QA_WEB](https://github.com/ClasherGeek77/QAWEBBATCH2) | Web automation batch project used in DOKU |
-| [selenium-paralel](https://github.com/ClasherGeek77/selenium-paralel) | Selenium tests in parallel runs |
-| [pytest-api-minimal-learning-assignment](https://github.com/ClasherGeek77/pytest-api-minimal-learning-assignment) | Minimal Pytest project for API learning used in JULO |
-| [homework-10-python](https://github.com/ClasherGeek77/homework-10-python) | Simple Python exercises for learning used in JULO |
+Open http://localhost:8000/ and you should see the page with an "open to work" band at the top.
 
----
+## deploy
 
-## 📊 Forecasting, ML & Academic Work
+GitHub Pages serves the `main` branch root. Push to `main` and the site updates in a minute or two.
 
-Part of my M.CompSci research: AI + Time Series for Electricity Forecasting
+## what I publish on GitHub
 
-| Project | Description |
-|--------|-------------|
-| [Electricity Consumption Forecasting](https://github.com/ClasherGeek77/prophet_forecasting_electricity) | Time series electricity consumption forecasting using Prophet |
-| [Dataset](https://github.com/ClasherGeek77/ml-csv) | Exploratory machine learning using structured data |
+Each repo stands alone: it says what it is, what you need and how to run it.
 
----
-
-## 🔩 Tools, Scripts & DevOps
-
-Handy utilities I use and teach in workshops or internal tooling setups.
-
-| Project | Description |
-|--------|-------------|
-| [install-script](https://github.com/ClasherGeek77/install-script) | Linux setup scripts for QA environments |
-| [uiautomatorviewer-docker-novnc](https://github.com/ClasherGeek77/uiautomatorviewer-docker-novnc) | UI Automator Viewer in browser via Docker + noVNC |
-| [fix-adb-remote-appium-device-farm](https://github.com/ClasherGeek77/fix-adb-remote-appium-device-farm) | Appium 2.0 device farm plugin fork for distributed automation |
-
----
-
-## 🔐 Security & Performance
-
-Tools for teaching performance and basic security testing.
-
-| Project | Description |
-|--------|-------------|
-| [jMeter-Owasp-Example](https://github.com/ClasherGeek77/jMeter-Owasp-Example) | JMeter + OWASP ZAP demo for load and security testing |
-
----
-
-## 📚 Education
-
-- 🎓 **M.CompSci** – Universitas Budi Luhur (2023–2025)  
-- 🎓 **B.CompSci** – Universitas Tarumanagara (2018–2022)
-
----
-
-## 🧭 Experience & Mentorship
-
-- 🧪 **QA Lead** - GigRadar.io
-- 🚀 **Senior QA Automation** – JULO  
-- 🧑‍🏫 **Mentor & Instructor** – OK-IT, Alterra Academy, Superprof  
-- 🛠 **Test Engineer** – Tokopedia, Stickearn
-
-Trained 80+ QA professionals, transitioned 95% of internal QA manual team into automation engineers, and led squad-wide DevOps integration for test pipelines.
-
----
-
-> _"I don’t just automate tests. I build testers."_
+| repo | what it is |
+|---|---|
+| https://github.com/ClasherGeek77/pytest_web_boilerplate | browser autotests with Python, pytest and Selenium |
+| https://github.com/ClasherGeek77/pytest_api_boilerplate | API autotests with Python and pytest |
+| https://github.com/ClasherGeek77/pytest_android_boilerplate | Android autotests with pytest and Appium |
+| https://github.com/ClasherGeek77/pytest_ios_boilerplate | iOS autotests with pytest and Appium |
+| https://github.com/ClasherGeek77/katalon_web_boilerplate | low-code web tests in Katalon Studio |
+| https://github.com/ClasherGeek77/katalon_api_boilerplate | API tests in Katalon Studio |
+| https://github.com/ClasherGeek77/katalon_android_boilerplate | Android tests in Katalon Studio |
+| https://github.com/ClasherGeek77/katalon_ios_boilerplate | iOS tests in Katalon Studio |
+| https://github.com/ClasherGeek77/locust_boilerplate | API load tests with Locust |
+| https://github.com/ClasherGeek77/mock_proxy_django | rule-driven mock proxy: mitmdump in front, Django rule manager behind |
+| https://github.com/ClasherGeek77/jmeter_performance_security_testing | JMeter plus OWASP ZAP for load and security testing |
+| https://github.com/ClasherGeek77/qa_training | QA bootcamp and mentorship material |
+| https://github.com/ClasherGeek77/uni | university projects, including the machine learning work |
